@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "set NODE_ENV=test && jest --verbose --watch",
+    "test": "set NODE_ENV=test && jest --verbose --detectOpenHandles ./test --watchAll",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
